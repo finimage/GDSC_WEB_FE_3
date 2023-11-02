@@ -1,3 +1,3 @@
-function newpage() {
-    window.open("https://solved.ac/profile/finimage");
-}
+let moveToTop = function () {
+    document.body.scrollIntoView({ behavior: "smooth" });
+};
